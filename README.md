@@ -5,7 +5,7 @@
 
 ## Para instalar a biblioteca siga os seguintes passos: 
 1.   Instale o node e o npm
-2.   Instale a biblioteca `$npm install markdown-url-extract`
+2.   Instale a biblioteca `$npm install markdown-ss`
 
 
 ## O método utilizado na biblioteca é:
@@ -16,7 +16,7 @@ Exemplo de uso:
 
 ```
 $node
-> let extract = require('markdown-url-extract')
+> let extract = require('markdown-ss')
 > extract.getLinksFromMd(""); // {}
 > extract.getLinksFromMd(str); // [{href: url}]
 ```
